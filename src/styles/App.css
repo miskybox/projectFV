@@ -1,0 +1,53 @@
+/*App.css */
+.registro {
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 15vw;
+    padding: 1vw 1vw;
+    background-color: rgba(244, 243, 251, 0.215);
+    border-radius: 10px;
+  }
+  
+  .registro h2 {
+    text-align: center;
+    width: auto;
+    background-color: rgb(108, 243, 191);
+    padding: 0.5vw 1vw;
+    border-radius: 10px 10px 0 0;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .registro input {
+    border: 1px solid rgb(99, 231, 180);
+    border-radius: 10px;
+    padding: 0.5vw 1vw;
+    outline: none;
+    margin: 5px;
+  }
+  
+  .registro .text-red-500 {
+    color: red;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .signup {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .signup:hover {
+    background-color: #5fa1fd;
+  }
+  
